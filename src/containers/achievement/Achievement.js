@@ -35,7 +35,7 @@ export default function Achievement() {
             </p>
           </div>
           <div className="achievement-cards-div">
-            {achievementSection.achievementsCards.map((card) => {
+            {achievementSection.achievementsCards && achievementSection.achievementsCards.map((card) => {
               return (
                 <AchievementCard
                   isDark={isDark}
