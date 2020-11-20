@@ -2,7 +2,7 @@ name: Node Continues Integration
 
 on:
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   test_pull_request:
@@ -14,4 +14,4 @@ jobs:
             node-version: 12
         - run: npm ci
         - run: npm test
-        - run: npm run build
+        - run: npm run build'
