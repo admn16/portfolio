@@ -1,4 +1,4 @@
-import React, { useState, useEffect ,lazy, Suspense } from "react";
+import React, { useState, useEffect ,lazy, Suspense, useCallback } from "react";
 import ApolloClient, { gql } from "apollo-boost";
 import { openSource } from "../../portfolio";
 import Contact from "../contact/Contact";
@@ -47,11 +47,15 @@ export default function Profile() {
           openSource.showGithubProfile = "false";
       });
   }
+
+  const getProfileDataMemoized = useCallback(getProfileData, [])
+
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
-      getProfileData();
+      getProfileDataMemoized();
     }
-  }, []);
+  }, [getProfileDataMemoized]);
+  
 if (openSource.showGithubProfile === "true" && !(typeof prof === 'string' || prof instanceof String)){  
     return (
       <Suspense fallback={renderLoader()}>
