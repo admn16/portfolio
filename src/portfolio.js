@@ -30,7 +30,7 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
+  title: "What I Do",
   subTitle: "FULL STACK DEVELOPER WHO LOVES TO LEARN AND BUILD FUN STUFF",
   skills: [
     emoji(
@@ -172,7 +172,7 @@ const workExperiences = {
     },
     {
       role: "Sr. Front-End Web Developer",
-      company: "Airbnb",
+      company: "Asia Fusion Technology",
       companylogo: require("./assets/images/aftLogo.jpg"),
       date: "May 2016 – March 2018",
       desc:
