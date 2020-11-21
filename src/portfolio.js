@@ -10,7 +10,7 @@ const greeting = {
   title: "Hi all, I'm Anton",
   // subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
   subTitle: emoji(
-    "A passionate Software Developer 🚀 with loads of experience in building Web Apps using JavaScript / ReactJS / NodeJS and other cool libraries and frameworks"
+    "A passionate Full-Stack Developer 🚀 with 4+ years of experience in building Web Apps using JavaScript / ReactJS / NodeJS and other cool libraries and frameworks"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
@@ -31,16 +31,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle: "FULL STACK DEVELOPER WHO LOVES TO LEARN AND BUILD FUN STUFF",
+  subTitle: "FULL-STACK DEVELOPER WHO LOVES TO MAKE OTHER PEOPLE'S LIVES EASIER WITH CODE",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
+      "⚡ Develop highly interactive User Interfaces for your web applications"
     ),
     emoji(
       "⚡ Integration of third party services such as Firebase / AWS / Render"
     ),
     emoji(
-      "⚡ Develop highly sophisticated fullstack app using Serverless Framework"
+      "⚡ Develop highly sophisticated Full-Stack app using Serverless technologies"
     ),
   ],
 
@@ -146,7 +146,6 @@ const workExperiences = {
       companylogo: require("./assets/images/itasLogo.jpg"),
       date: "October 2019 – June 2020",
       desc:
-        // "Developed and maintained a full-stack web app",
         "Worked on a large full-stack web app",
       descBullets: [
         "Converted designs from Zeplin to React JS code.",
