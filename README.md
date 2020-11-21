@@ -1,9 +1,5 @@
 # ⚡ Anton Nocum's Portfolio
 
-Please see the deployed site here: [https://antonnocum.com](antonnocum.com)
+[![CI Actions Status](https://github.com/admn16/portfolio/workflows/CI/badge.svg)](https://github.com/admn16/portfolio/actions)
 
-## Technologies Used
-1. React.js
-2. AWS S3 (Static Site Hosting)
-3. AWS Cloudfront
-4. AWS Route 53
+Please see the deployed site here: [https://antonnocum.com](antonnocum.com)
