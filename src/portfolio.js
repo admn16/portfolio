@@ -107,7 +107,7 @@ const educationInfo = {
     {
       schoolName: "Far Eastern University - Diliman",
       logo:
-        "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Feufernlogo.png/290px-Feufernlogo.png",
+        require('./assets/images/feu-diliman-logo.png'),
       subHeader: "B.S. Computer Science",
       duration: "January 2012 - September 2015",
       desc: "Developed a web-based Payroll System for the University.",

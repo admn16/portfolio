@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
@@ -18,11 +18,15 @@
 }
 
 .App-link {
-  color: #09d3ac;
+  color: #f2a365;
 }
 
 .subTitle {
-  color: #868e96;
+  color: #222831;
 }
 
 /* EXTRA STUFF */
+a, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: inherit;
+}

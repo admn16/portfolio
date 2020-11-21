@@ -1,5 +1,5 @@
 {
-  "short_name": "Anton Nocum Portfolio",
+  "short_name": "admn-portfolio",
   "name": "Anton Nocum Portfolio",
   "icons": [
     {
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#6c63ff",
-  "background_color": "#ffffff"
+  "theme_color": "#f2a365",
+  "background_color": "#222831"
 }
